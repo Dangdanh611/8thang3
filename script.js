@@ -46,11 +46,7 @@ function createConfetti() {
 
 function showMessage() {
     const messages = [
-        "Bạn là người phụ nữ tuyệt vời!",
-        "Chúc bạn luôn xinh đẹp và hạnh phúc!",
-        "Bạn xứng đáng với những điều tốt đẹp nhất!",
-        "Cảm ơn bạn đã là một người bạn tuyệt vời!",
-        "Mãi là bạn thân nhé!"
+        "Chúc bạn luôn xinh đẹp và hạnh phúc! tôi không chơi được vật chất thì tôi chọn tinh thần nhé",
     ];
     
     const randomMessage = messages[Math.floor(Math.random() * messages.length)];
@@ -63,7 +59,7 @@ function showMessage() {
     setTimeout(() => {
         messageElement.remove();
         window.location.href = "https://dangdanh611.github.io/doanminhchau/";
-    }, 3000);
+    }, 5000);
 }
 
 // Thêm style cho confetti và popup message
